@@ -2,10 +2,10 @@ version: 1.0
 workflows:
   - name: count_Ns_fast
     subclass: WDL
-    primaryDescriptorPath: /count_Ns_fast.wdl
+    primaryDescriptorPath: count_Ns_fast.wdl
     testParameterFiles: []
 
   - name: count_Ns_slow
     subclass: WDL
-    primaryDescriptorPath: /count_Ns_slow.wdl
+    primaryDescriptorPath: count_Ns_slow.wdl
     testParameterFiles: []
